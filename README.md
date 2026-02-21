@@ -29,6 +29,7 @@ Only the SEM-EDS spectrum-imaging files are used in this project. Users who wish
 This project uses a dedicated conda environment. To reproduce the environment used for the analysis, run: 
 
 conda env create -f environment.yml
+
 conda activate zincsoap-ml
 
 The environment includes the core scientific Python stack (NumPy, SciPy, Pandas, Matplotlib, scikit-learn), HyperSpy for SEM-EDS hyperspectral data processing, and JupyterLab for running the analysis notebooks. 
