@@ -10,6 +10,7 @@ dependencies:
   - matplotlib
   - scikit-learn
   - hyperspy
+  - exspy
   - hyperspy-gui-ipywidgets
   - jupyterlab
   - ipykernel
