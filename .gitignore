@@ -3,11 +3,4 @@
 **/.ipynb_checkpoints/
 
 # Raw data files (large, not tracked)
-raw_data/
-*.raw
-*.raw.gz
-*.rpl
-*.msa
-*.tif
-*.tiff
-*.xlsx
+/data_raw/
