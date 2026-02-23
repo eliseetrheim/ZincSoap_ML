@@ -24,14 +24,14 @@ https://data.nist.gov/od/id/8C40CFA7931709DAE0532457068179072082
 
 This project only requires use of the SEM-EDS datasets and associated validation files: 
 
-1. Primary Data (Required)
-#### Aerial View Spectrum Image
+#### 1. Primary Data (Required)
+**Aerial View Spectrum Image**
 - Aerial 150x.rpl
 - Aerial 150x.raw.gz
 - Aerial 150x.raw.sha512sum
 - Aerial 150x.rpl.sha512.sum
 
-#### Cross-Section Spectrum Image
+**Cross-Section Spectrum Image**
 - CS 148x.rpl
 - CS 148x.raw.gz
 - CS 148x.raw.sha512sum
@@ -39,21 +39,21 @@ This project only requires use of the SEM-EDS datasets and associated validation
 
 The .rpl files contains metadata and header information necessary for interpreting spectral data. The .raw.gz files contain the compressed hyperspectral data cube. Checksum files are included to verify data integrity.
 
-2. Point-Based EDS Spectra (For Interpretation)
-#### All files named: 
+#### 2. Point-Based EDS Spectra (For Interpretation)
+**All files named:** 
 - Spectrum *.msa
 
 These spectra are used for qualitative chemical interpretation and comparison with cluster-mean spectra.
 
-3. Region-of-Interest (ROI) Images & Quantification Tables (Optional but Recommended)
-#### ROI Images
+#### 3. Region-of-Interest (ROI) Images & Quantification Tables (Optional but Recommended)
+**ROI Images**
 - CS diffusion ROI.tif
 - Gel and Bioplastic ROI.tif
 - White1to3 and Red4.tif
 
 These TIFF files indicate acquisition locations and can help contextualize clustering results spatially. 
 
-#### Quantification Tables
+**Quantification Tables**
 - Aerial Gel.xlsx
 - Bioplastic.xlsx
 - CS diffusion.xlsx
@@ -63,8 +63,8 @@ These TIFF files indicate acquisition locations and can help contextualize clust
 
 These are used for qualitative validation and interpretation of cluster compositions. 
 
-4. Files Not Required
-#### The following dataset components are not used in this project: 
+#### 4. Files Not Required
+**The following dataset components are not used in this project:** 
 - FTIR hyperspectral data
 - DART-MS data
 - Supporting documentation files not directly related to SEM-EDS
