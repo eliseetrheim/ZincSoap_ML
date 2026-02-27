@@ -78,15 +78,15 @@ These are used for qualitative validation and interpretation of cluster composit
 To reproduce the analysis environment: 
 1. clone this repository to your local machine
 
-git clone https://github.com/yourusername/ZincSoap_ML.git
+	git clone https://github.com/yourusername/ZincSoap_ML.git
 
-cd ZincSoap_ML
+	cd ZincSoap_ML
 
 2. Create the conda environment using the provided file: 
 
-conda env create -f environment.yml
+	conda env create -f environment.yml
 
-conda activate zincsoap-ml
+	conda activate zincsoap-ml
 
 The environment includes the core scientific Python stack (NumPy, SciPy, Pandas, Matplotlib, scikit-learn), HyperSpy for SEM-EDS hyperspectral data processing, and JupyterLab for running the analysis notebooks. 
 
