@@ -4,3 +4,6 @@
 
 # Raw data files (large, not tracked)
 /data_raw/
+
+# Old notebooks and files
+/archive/
