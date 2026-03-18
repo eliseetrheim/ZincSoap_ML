@@ -1,0 +1,51 @@
+name: zincsoap-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # Core scientific stack
+  - numpy=1.26
+  - scipy=1.15
+  - pandas=2.3
+  - matplotlib=3.10
+  - seaborn=0.13
+
+  # Machine learning
+  - scikit-learn=1.7
+  - statsmodels=0.14
+  - numba=0.63
+
+  # Imaging / data
+  - scikit-image=0.20
+  - imageio
+  - pillow
+  - pywavelets
+  - dask
+  - dask-image
+
+  # HDF5 / array storage
+  - h5py
+  - pyarrow
+
+  # Domain-specific
+  - hyperspy=2.4
+  - exspy
+  - pybaselines
+  - pint
+
+  # Visualization / notebooks
+  - jupyterlab=4
+  - ipykernel
+  - ipywidgets
+  - ipympl
+  - bokeh
+
+  # Utilities
+  - tqdm
+  - requests
+  - pyyaml
+
+  - pip
+  - pip:
+      - openpyxl
