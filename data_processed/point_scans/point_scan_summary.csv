@@ -1,0 +1,18 @@
+folder,file,n_channels,energy_min_keV,energy_max_keV,max_counts,processed_csv
+CS diffusion,Spectrum 1.msa,2162,-0.9550045,20.652834499999997,62282.0,data_processed\point_scans\cs_diffusion\Spectrum 1.csv
+CS diffusion,Spectrum 2.msa,2002,-0.9550045,19.052994499999997,66813.0,data_processed\point_scans\cs_diffusion\Spectrum 2.csv
+CS diffusion,Spectrum 3.msa,1743,-0.9550045,16.463253499999997,69122.0,data_processed\point_scans\cs_diffusion\Spectrum 3.csv
+CS diffusion,Spectrum 4.msa,1896,-0.9550045,17.993100499999997,67526.0,data_processed\point_scans\cs_diffusion\Spectrum 4.csv
+CS diffusion,Spectrum 5.msa,2101,-0.9550045,20.042895499999997,60023.0,data_processed\point_scans\cs_diffusion\Spectrum 5.csv
+Gel and Bioplastic,Spectrum 1.msa,1669,-0.9556821,15.7309899,49999.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 1.csv
+Gel and Bioplastic,Spectrum 2.msa,2096,-0.9556821,20.0026979,52246.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 2.csv
+Gel and Bioplastic,Spectrum 3.msa,1792,-0.9556821,16.9614819,58403.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 3.csv
+Gel and Bioplastic,Spectrum 4.msa,2135,-0.9556821,20.392853900000002,52596.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 4.csv
+Gel and Bioplastic,Spectrum 5.msa,2014,-0.9556821,19.1823699,57734.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 5.csv
+Gel and Bioplastic,Spectrum 6.msa,1601,-0.9556821,15.050717900000002,110604.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 6.csv
+Gel and Bioplastic,Spectrum 7.msa,1758,-0.9556821,16.6213459,125042.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 7.csv
+Gel and Bioplastic,Spectrum 8.msa,1618,-0.9556821,15.2207859,112123.0,data_processed\point_scans\gel_and_bioplastic\Spectrum 8.csv
+White and Red,Spectrum 1.msa,2254,-0.9550045,21.572742499999997,92965.0,data_processed\point_scans\white_and_red\Spectrum 1.csv
+White and Red,Spectrum 2.msa,2319,-0.9550045,22.222677499999996,108888.0,data_processed\point_scans\white_and_red\Spectrum 2.csv
+White and Red,Spectrum 3.msa,2384,-0.9550045,22.872612499999995,93087.0,data_processed\point_scans\white_and_red\Spectrum 3.csv
+White and Red,Spectrum 4.msa,2500,-0.9550045,24.032496499999997,41919.0,data_processed\point_scans\white_and_red\Spectrum 4.csv
