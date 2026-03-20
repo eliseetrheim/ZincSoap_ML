@@ -15,10 +15,10 @@ ZincSoap_ML/
 
 │  
 ├── data_raw/  
-│   ├── Aerial 150x.*  
-│   ├── CS 148x.*  
-│   └── point spectra + ROI images  
-│   Raw SEM-EDS datasets downloaded from NIST (not tracked by Git).  
+│       ├── Aerial 150x.*  
+│       ├── CS 148x.*  
+│       └── point spectra + ROI images  
+│       Raw SEM-EDS datasets downloaded from NIST (not tracked by Git).  
 │  
 ├── data_processed/  
 │   ├── Aerial 150x.hspy  
