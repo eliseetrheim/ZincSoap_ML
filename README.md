@@ -13,47 +13,31 @@
 ### Project Structure
 ZincSoap_ML/
 
-│  
-├── data_raw/  
-│       ├── Aerial 150x.*  
-│       ├── CS 148x.*  
-│       └── point spectra + ROI images  
-│       Raw SEM-EDS datasets downloaded from NIST (not tracked by Git).  
-│  
-├── data_processed/  
-│   ├── Aerial 150x.hspy  
-│   ├── CS 148x.hspy  
-│   Intermediate processed datasets saved in HyperSpy format.  
-│   Generated in 01_data_preparation.ipynb.  
-│  
-├── figures/  
-│   All generated figures used in analysis and final report.  
-│   Includes clustering maps, PCA plots, ARI comparisons, and spectra.  
-│  
-├── 01_data_preparation.ipynb  
-│   Loads raw SEM-EDS data, performs preprocessing, and saves processed  
-│   .hspy datasets for downstream analysis.  
-│
-├── 02_clustering_analysis.ipynb  
-│   Core analysis notebook.  
-│   - Feature extraction (elemental maps)  
-│   - Data transformation and normalization  
-│   - Clustering (k-means, GMM, hierarchical)  
-│   - Cluster evaluation (ARI, metrics)  
-│   - Figure generation  
-│  
-├── 03_point_scan_comparison.ipynb  
-│   Uses point EDS spectra for qualitative validation of clustering results.  
-│   Generates comparison plots and spectral interpretations.   
-│  
-├── figures/  
-│   Output directory for all publication-quality figures.  
-│  
-├── environment.yml  
-│   Conda environment specification for reproducibility.  
-│  
-└── README.md  
-    Project overview, dataset description, and usage instructions.
+2. data_processed/  
+Intermediate processed datasets saved in HyperSpy format and generated in 01_data_preparation.ipynb from raw formats. 
+
+**01_data_preparation.ipynb**  
+Loads raw SEM-EDS data, performs preprocessing, and saves processed .hspy datasets for downstream analysis. 
+ 
+**02_clustering_analysis.ipynb**  
+Core analysis notebook, containing:   
+	- Feature extraction (elemental maps)  
+	- Data transformation and normalization  
+	- Clustering (k-means, GMM, hierarchical)  
+	- Cluster evaluation (ARI, metrics)  
+	- Figure generation  
+
+**03_point_scan_comparison.ipynb**   
+Uses point EDS spectra for qualitative validation of clustering results, generating comparison plots and spectral interpretations. 
+
+**figures/**   
+Output directory for all figures.  
+
+**environment.yml**
+Conda environment specification for reproducibility.  
+
+**README.md**  
+Project overview, dataset description, and usage instructions.
 
 ---
 
