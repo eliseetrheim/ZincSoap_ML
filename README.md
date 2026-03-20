@@ -53,16 +53,6 @@ These spectra are used for qualitative chemical interpretation and comparison wi
 
 These TIFF files indicate acquisition locations and can help contextualize clustering results spatially. 
 
-**Quantification Tables**
-- Aerial Gel.xlsx
-- Bioplastic.xlsx
-- CS diffusion.xlsx
-- Gel.xlsx
-- Red.xlsx
-- White.xlsx
-
-These are used for qualitative validation and interpretation of cluster compositions. 
-
 #### 4. Files Not Required
 **The following dataset components are not used in this project:** 
 - FTIR hyperspectral data
