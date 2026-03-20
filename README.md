@@ -11,32 +11,33 @@
 --- 
 
 ### Project Structure
+
 ZincSoap_ML/
 
-2. data_processed/  
+1. data_processed/  
 Intermediate processed datasets saved in HyperSpy format and generated in 01_data_preparation.ipynb from raw formats. 
 
-**01_data_preparation.ipynb**  
+2. 01_data_preparation.ipynb    
 Loads raw SEM-EDS data, performs preprocessing, and saves processed .hspy datasets for downstream analysis. 
  
-**02_clustering_analysis.ipynb**  
+3. 02_clustering_analysis.ipynb   
 Core analysis notebook, containing:   
-	- Feature extraction (elemental maps)  
-	- Data transformation and normalization  
-	- Clustering (k-means, GMM, hierarchical)  
-	- Cluster evaluation (ARI, metrics)  
-	- Figure generation  
+- Feature extraction (elemental maps)  
+- Data transformation and normalization
+- Clustering (k-means, GMM, hierarchical)
+- Cluster evaluation (ARI, metrics)
+- Figure generation  
 
-**03_point_scan_comparison.ipynb**   
+4. 03_point_scan_comparison.ipynb
 Uses point EDS spectra for qualitative validation of clustering results, generating comparison plots and spectral interpretations. 
 
-**figures/**   
+5. figures/  
 Output directory for all figures.  
 
-**environment.yml**
+6. environment.yml
 Conda environment specification for reproducibility.  
 
-**README.md**  
+7. README.md 
 Project overview, dataset description, and usage instructions.
 
 ---
