@@ -34,6 +34,9 @@ Uses point EDS spectra for qualitative validation of clustering results, generat
 5. `figures/`
 Output directory for all figures.  
 
+6. `reports/`
+Project proposal, presentation, and technical report.
+
 6. `environment.yml`
 Conda environment specification for reproducibility.  
 
